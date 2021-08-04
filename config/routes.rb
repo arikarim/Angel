@@ -1,11 +1,11 @@
 # frozen_string_literal: true
-
 Rails.application.routes.draw do
-  resources :posts
+  get 'users/index'
   devise_for :users, controllers: {
     registrations: :registrations,
     sessions: :sessions
   }
+  resources :posts
 
   root to: 'home#index'
   get '/member', to: 'members#show'
