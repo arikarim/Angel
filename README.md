@@ -4,7 +4,7 @@
   <h3 align="center">React-Rails --> [Rails]</h3>
 
   <p align="center">
-This is prepared Rails authentication template, part of `React-Rails authentication`, Rails back-end and  logic are built and ready to use.
+This is prepared Rails Tracking app that tracks developers activites.
   </p>
 </p
 
