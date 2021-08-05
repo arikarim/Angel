@@ -1,5 +1,5 @@
 class MeasurmentsController < ApplicationController
-  before_action :set_measurment, only: [:show, :update, :destroy]
+  before_action :set_measurment, only: %i[show update destroy]
 
   # GET /measurments
   def index
@@ -39,13 +39,14 @@ class MeasurmentsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_measurment
-      @measurment = Measurment.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def measurment_params
-      params.require(:measurment).permit(:number, :date, :user_id, :measure_id)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_measurment
+    @measurment = Measurment.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def measurment_params
+    params.require(:measurment).permit(:number, :date, :user_id, :measure_id)
+  end
 end
