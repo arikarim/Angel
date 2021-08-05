@@ -1,3 +1,6 @@
 class Measure < ApplicationRecord
-  have_many :measurements
+  has_many :measurements
+  belongs_to :user
+  validates :name, presence: true
+  validates :name , uniqueness: true
 end

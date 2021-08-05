@@ -18,7 +18,7 @@ class MeasuresController < ApplicationController
     @measure = Measure.new(measure_params)
 
     if @measure.save
-      render json: @measure, status: :created, location: @measure
+      render json: @measure, status: :created
     else
       render json: @measure.errors, status: :unprocessable_entity
     end
@@ -46,6 +46,6 @@ class MeasuresController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def measure_params
-      params.require(:measure).permit(:name)
+      params.require(:measure).permit(:name, :user_id)
     end
 end
