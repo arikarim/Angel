@@ -14,7 +14,6 @@ This is prepared Rails Tracking app that tracks developers activites.
 ![image](./app/images/.s.png)
 
 
-Note: This is a demo of this project combined with [React-front](https://github.com/arikarim/Rails-React-Front-end).
 
 [Live Demo Link](http://arikarim.me/Rails-React-Front-end/)
 
