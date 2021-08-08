@@ -8,7 +8,6 @@ Rails.application.routes.draw do
     registrations: :registrations,
     sessions: :sessions
   }
-  resources :posts
 
   root to: 'home#index'
   get '/member', to: 'members#show'
