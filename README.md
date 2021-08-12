@@ -4,8 +4,8 @@
   <h3 align="center">Progress Dev</h3>
 
   <p align="center">
-  This is Rails Tracking app that tracks developers activites.
-  </p>
+  This is a Rails Tracking app that tracks developers' activities.
+    </p>
 </p
 
 
