@@ -1,22 +1,16 @@
 # React-Rails Authentication Front-End
 <p align="center">
     <img src="./app/images/rails.png" alt="Logo" width="150" height="120">
-  <h3 align="center">React-Rails --> [Rails]</h3>
+  <h3 align="center">Progress Dev</h3>
 
   <p align="center">
-This is prepared Rails Tracking app that tracks developers activites.
+  This is Rails Tracking app that tracks developers activites.
   </p>
 </p
 
 
-## Screenshots of the app.
 
-![image](./app/images/.s.png)
-
-
-
-[Live Demo Link](http://arikarim.me/Rails-React-Front-end/)
-
+[Live Demo Link](http://arikarim.me/Tracking-Front/)
 ## Built With
 
 - Rails-Api
