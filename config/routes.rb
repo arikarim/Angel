@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  resources :measures, only: %i[index create]
+  resources :measures
   resources :measurments
-  get 'users/index'
+  resources :users
+  resources :posts
   devise_for :users, controllers: {
     registrations: :registrations,
     sessions: :sessions
