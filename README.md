@@ -1,23 +1,16 @@
 # React-Rails Authentication Front-End
 <p align="center">
     <img src="./app/images/rails.png" alt="Logo" width="150" height="120">
-  <h3 align="center">React-Rails --> [Rails]</h3>
+  <h3 align="center">Progress Dev</h3>
 
   <p align="center">
-This is prepared Rails authentication template, part of `React-Rails authentication`, Rails back-end and  logic are built and ready to use.
-  </p>
+  This is a Rails Tracking app that tracks developers' activities.
+    </p>
 </p
 
 
-## Screenshots of the app.
 
-![image](./app/images/.s.png)
-
-
-Note: This is a demo of this project combined with [React-front](https://github.com/arikarim/Rails-React-Front-end).
-
-[Live Demo Link](http://arikarim.me/Rails-React-Front-end/)
-
+[Live Demo Link](http://arikarim.me/Tracking-Front/)
 ## Built With
 
 - Rails-Api
